@@ -14,7 +14,7 @@ import {
 const { wallets } = getDefaultWallets()
 
 export const WALLETCONNECT_PROJECT_ID =
-  process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID ?? ""
+  process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID ?? "12529c26586e51f97cfed46e68b03467"
 if (!WALLETCONNECT_PROJECT_ID) {
   console.warn(
     "You need to provide a NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID env variable"
